@@ -1,0 +1,17 @@
+/* FEUP_2022_extra */
+
+img.destaque {
+display:inline;
+
+}
+@media (max-width: 900px) { img.destaque {
+display:none;
+}
+}
+div#cabecalho-par-quadra  {
+display: inline;
+}
+@media (max-width: 900px) { div#cabecalho-par-quadra {
+display:none;
+}
+}

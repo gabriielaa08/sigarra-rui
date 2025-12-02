@@ -1,0 +1,340 @@
+/* FEST - Ficha de Estudante */
+
+div.estudantes-caixa-lista-cursos {
+/**/
+}
+div.caixa-mensagens-anteriores {
+height: 200px;
+overflow-y: auto;
+margin-bottom: 1em;
+background-color: #ffd;
+border: 1px solid #ccc;
+}
+div.eqrec {
+background-image: url("../imagens/FEST-Eqrec");
+border: 1px solid #fff;
+padding: .2em;
+font-size: .8em;
+color: #1ab31a;
+}
+div.estudante-detalhe-cabecalho {
+padding: .25em 1em;
+margin: 0;
+background-color: #ebebeb;
+border-radius: 4px;
+border: 1px solid #ddd;
+color: #666;
+font-weight: bold;
+cursor: pointer;
+}
+div.estudante-detalhe-cabecalho h2 {
+font-size: 1.25em;
+margin: 0;
+}
+div.estudante-detalhe-conteudo {
+padding: 1em;
+margin: 0 0 1em 0;
+background-color: #fff;
+border-radius: 0 0 4px 4px;
+border: 1px solid #ddd;
+border-top-width: 0;
+color: #000;
+/*font-weight: bold;*/
+}
+div.estudante-foto {
+float: left;
+padding: 0 1em 0 0;
+white-space:nowrap;
+}
+div.estudante-foto-editar {
+position: absolute; 
+margin: -2.5em 0.5em;
+background-color: #FFF;
+}
+div.estudante-info {
+padding: 0 0 1em 0;
+}
+div.estudante-info-email {
+padding: .5em 0 0 0;
+font-size: 1.2em;
+}
+div.estudante-info-nome {
+font-weight: bold;
+font-size: 1.5em;
+}
+div.estudante-info-numero {
+/* */
+}
+div.estudante-lista-curso-activo {
+float: left;
+padding: .5em;
+margin: 1em 1em 1em 0;
+background-color: #ebebeb;
+border-radius: 4px;
+border: 1px solid #ddd;
+width: 25em;
+min-height: 10em;
+}
+div.estudante-lista-curso-detalhes {
+float: right;
+margin: -.5em -.5em 0 0
+}
+div.estudante-lista-curso-instit {
+font-size: .9em;
+padding: 0 0 .5em 0;
+}
+div.estudante-lista-curso-nome {
+font-weight: bold;
+font-size: 1.1em;
+}
+div.expandido {
+border-radius: 4px 4px 0 0;
+border: 1px solid #ddd;
+border-bottom-width: 0;
+}
+div.mansagem-estudante {
+font-weight: bold;
+}
+div.mensagens {
+background: url(../imagens/MensagemDisponivel) no-repeat; 
+display: inline-block;
+height: 16px;
+width: 28px;
+color: #000;
+text-align: center;
+font-weight: bold;
+font-size: 1em;
+margin-left: .75em;
+text-shadow: 1px 1px 2px #fff;
+}
+div.numero-antigo {
+margin: 1em 0;
+}
+div.numero-antigo span {
+font-weight: bold;
+}
+div.pagina-pessoal {
+margin: 1em 0;
+}
+div.pagina-pessoal span {
+font-weight: bold;
+}
+div.percurso {
+border-bottom: 4px solid #00a651;
+}
+div.raides {
+border: 1px solid #dedecb;
+padding: 0 1.5em 1.5em 1.5em;
+border-radius: 5px;
+background-color: #faf9e7;
+}
+div.raides h4 {
+margin-bottom: .1em;
+}
+div.raides p {
+margin-top: 0;
+padding-left: 1em;
+}
+img.aceitar, img.rejeitar, img.mensagens, div.mensagens, img.aguarda-validacao, img.editar, img.anular {
+vertical-align: middle;
+}
+img.aguarda-validacao {
+margin-left: 4px;
+}
+img.editar-imagem {
+background-color: #ebebeb;
+padding: 6px;
+margin: 0;
+border-radius: 8px 8px 0 8px;
+}
+img.editar-imagem-editar {
+background-color: #ebebeb;
+padding: 6px;
+border-radius: 0 8px 8px 0;
+margin: 0;
+}
+img.rejeitar {
+margin: 0 4px;
+}
+li.estudantes-curso-opcao {
+padding: .25em 1em;
+margin: 0 .25em 0 0;
+background-color: #ebebeb;
+border-radius: 4px;
+border-top: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 4px solid #ddd;
+display: inline-block;
+font-weight: bold;
+}
+li.estudantes-curso-opcao.ativo {
+border-bottom: 4px solid #00A651;
+}
+section.pedido {
+background-color: #fff;
+box-shadow: -2px -2px 6px #efefef;
+border-radius: 12px;
+padding: 1em 1em;
+margin: 1em 0 1em 3.5em;
+}
+section.pedido div.dado-anterior {
+background-color: #fee;
+color: #666;
+}
+section.pedido div.dado-anterior, section.pedido div.dado-atual, section.pedido div.dado-comprovativo {
+display: inline-block;
+border: 1px dashed #ccc;
+border-radius: 5px;
+width: 18em;
+padding: .5em;
+overflow: auto;
+vertical-align: top;
+margin-bottom: .5em;
+}
+section.pedido div.dado-atual {
+background-color: #efe;
+}
+section.pedido div.dado-comprovativo {
+color: #999;
+width: 15em;
+}
+section.pedido div.dado-indicador-transf {
+background-image: url(../imagens/TransfEsqDir);
+width:15px;
+display: inline-block;
+padding: 0.5em;
+background-repeat: no-repeat;
+background-position: center;
+}
+section.pedido div.info {
+margin: .5em 0;
+}
+section.pedido div.mensagens {
+font-size: .8em;
+}
+section.pedido div.pedido-acoes {
+position: absolute;
+right: 0;
+top: 0;
+}
+section.pedido div.pedido-atributo {
+font-weight: bold;
+}
+section.pedido div.pedido-tipo {
+font-weight: bold;
+/*margin-left: 6em;*/
+}
+section.pedido div.pedido-tipo, section.pedido div.pedido-atributo, section.pedido div.pedido-data, section.pedido div.pedido-acoes {
+display: inline;
+}
+section.pedido div.pedido-tipo.alteracao {
+color: #00aeef;
+}
+section.pedido div.pedido-tipo.eliminacao {
+color: #d41920;
+}
+section.pedido div.pedido-tipo.insercao {
+color: #00a651;
+}
+section.pedido header {
+margin: 0em 0 .5em 0em;
+position: relative;
+font-size: 1.25em;
+}
+section.pedido h3 {
+font-size: 1em;
+font-weight: normal;
+margin: 0 160px 0 0;
+color: #000;
+}
+span.alterado {
+background-color: #00a651;
+color: #fff;
+}
+span.carat-usados.aviso {
+color: red;
+}
+span.data-hora {
+color: #ababab;
+font-size: 0.9em;
+}
+td.listagem-nome {
+padding-right: 30px;
+}
+td.listagem-nome img {
+float: right; margin-right: -27px;
+}
+td.para-eliminar {
+text-decoration: line-through;
+}
+td.sem-inscricao {
+background-image: url(../imagens/FEST-SemInscricao);
+background-repeat: repeat;
+}
+td.separador {
+background-color: #999999;
+font-size: .1em;
+height: .2em;
+}
+td.uc {
+font-weight: bold;
+}
+th.fazer {
+background-color: #b3951a;
+color: #fff;
+padding: .3em;
+font-weight: bold;
+}
+th.feito {
+background-color: #1ab31a;
+color: #fff;
+padding: .3em;
+font-weight: bold;
+}
+th.selecionado {
+background-color: #00a651;
+}
+tr.aguarda-validacao {
+background-color: #fdc689;
+}
+tr.i td.aprovado {
+background-color: #b9dbc5;
+font-weight: bold;
+}
+tr.i td.nao-aprovado {
+background-color: #f5f1c4;
+}
+tr.i-fazer, td.i-fazer {
+background-color: #f9f2d7;
+}
+tr.i-feito, td.i-feito {
+background-color: #d7f9d7;
+}
+tr.i-neutro, td.i-neutro {
+background-color: #e8e8e8;
+}
+tr.p td.aprovado {
+background-color: #afd0bb;
+font-weight: bold;
+}
+tr.p td.nao-aprovado {
+background-color: #e8e5b9;
+}
+tr.p-fazer, td.p-fazer {
+background-color: #f9f2d7;
+}
+tr.p-feito, td.p-feito {
+background-color: #d7f9d7;
+}
+tr.p-neutro, td.p-neutro {
+background-color: #e8e8e8;
+}
+ul.estudantes-curso-lista-opcoes {
+margin-left: 0;
+padding-left: 0;
+}
+ul.lista-docs-comprovativo {
+padding-left: 2em;
+margin: 0;
+}
